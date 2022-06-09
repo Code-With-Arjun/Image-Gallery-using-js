@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+
+    width: 100%;
+   
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar-brand,
+.nav-link {
+    color: black;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-brand span {
+    color: crimson;
+    ;
+}
+
+.icon-menu{
+    /* color: white; */
+    font-size: 2rem;
+}
+/* --------------------------- */
+.image-png {
+    height: 73px;
+    width: 90%;
+}
+
+.container-big-image {
+    display: inline-block;
+}
+
+.font-sans {
+    font-family: sans-serif;
+}
+
+.font-sans>h3 {
+    font-weight: 600;
+}
+
+.font-sans p {
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#logo-image {
+    width: 100%;
+    height: auto;
+}
+
+/* ----------------------- */
+
+.container-btn {
+    padding-left: 6rem;
+}
+
+.btn-addcart {
+    background-color: #ff9f00;
+}
+
+.btn-buynow {
+    background-color: #fb641b;
+}
+@media screen and (max-width:768px){
+    .container-btn {
+        padding-left: 0;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+}
